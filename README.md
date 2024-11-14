@@ -98,7 +98,7 @@ hapusMahasiswa(id: any) {
 }
 ```
 
-serta alertnya
+2. Buat fungsi `confirmhapusMahasiswa()`untuk alertnya
 ```typescript
 async confirmHapusMahasiswa(id: any) {
     const alert = await this.alertCtrl.create({
