@@ -51,6 +51,7 @@ export class ApiService {
 ## 2. Implementasi Fitur CRUD
 
 ### 2.1. Tampil Data
+![](81.png)
 1. Deklarasikan `ApiService` dan buat fungsi `getMahasiswa()` di dalam `mahasiswa/mahasiswa.page.ts` untuk menampilkan data dari API.
 2. Dalam `mahasiswa.page.html`, tampilkan data dengan menggunakan `*ngFor`.
 
@@ -66,6 +67,7 @@ getMahasiswa() {
 ```
 
 ### 2.2. Tambah Data
+![](82.png)
 1. Tambahkan `ModalController` untuk membuka modal penambahan data.
 2. Buat fungsi `tambahMahasiswa()` untuk mengirim data ke API.
 
@@ -87,6 +89,7 @@ tambahMahasiswa() {
 3. Di dalam `mahasiswa.page.html`, tambahkan tombol untuk membuka modal penambahan.
 
 ### 2.3. Hapus Data
+![](83.png)
 1. Buat fungsi `hapusMahasiswa()` untuk menghapus data dari API.
 
 ```typescript
@@ -128,6 +131,7 @@ async confirmHapusMahasiswa(id: any) {
 2. Tambahkan tombol hapus pada tiap item data di `mahasiswa.page.html`.
 
 ### 2.4. Edit Data
+![](84.png)
 1. Buat fungsi `ambilMahasiswa()` untuk mengambil data spesifik berdasarkan `id` dan mengisi modal edit.
 2. Buat fungsi `editMahasiswa()` untuk memperbarui data.
 
